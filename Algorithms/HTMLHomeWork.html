@@ -3,24 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML HW</title>
+    <style type="text/css">
+    h1 {
+        color: red;
+        background-color: black;
+
+
+    }
+
+    h3 {
+        color:green;
+        background-color: black;
+    }
+
+    h3.h3yellow{
+        color:yellow;
+        background-color: black;
+    }
+
+    div td {
+        color: orange;
+        background-color: black;
+    }
+
+    ol li {
+        color: blue;
+        background-color: black;
+    }
+
+    div td, ol li {
+        font-size:16pt;
+    }
+
+    div {
+        background-color: black;
+    }
+
+    h1 {
+        font-size:32pt;
+    }
+
+    h3, h3yellow{
+        font-size: 20pt;
+    }
+
+
+
+    </style>
+
 </head>
 
+<div>
 <body>
 
+    <h1>Chicken Avacado Salad Stuffed Pitta</h1>
 
-<div>
-    <h2>Chicken Avacado Salad Stuffed Pitta</h2>
-</div>
 
-<div>
-    <img src="Images/Pitta.jpg" width="300">
-</div>
 
-<div>
+
+
 
     <h3>INGREDIENTS</h3>
-
-        <ul>
+    <table>
+        <tr>
+            <td><img src="Images/Pitta.jpg" width="300"></td>
+            <td>
+                <ul>
             <li>6oz chicken breast</li>
             <li>1 whole wheat pita</li>
             <li>1.5 tbsp Greek yogurt</li>
@@ -29,9 +77,13 @@
             <li>1/4 cup red onions</li>
             <li>tomato slices, lettuce</li>
             <li>Seasonings: garlic, cumin, sea salt & pepper to taste</li>
-        </ul>
+                 </ul>
+            </td>
 
-    <h3>STEPS</h3>
+        </tr>
+    </table>
+
+    <h3 class="h3yellow">STEPS</h3>
 
         <ol>
             <li>Season chicken breast and cook in a nonstick skillet.</li>
@@ -41,8 +93,6 @@
             <li>Add tomato slices and lettuce to the pita and stuff with the chicken salad.</li>
         </ol>
 </div>
-
-
 
 
 </body>
