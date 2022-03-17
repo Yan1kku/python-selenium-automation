@@ -2,7 +2,7 @@ from behave import when, given, then
 from selenium.webdriver.common.by import By
 
 RESULT = (By.XPATH, "//span[@class='a-color-state a-text-bold']")
-PRODUCT_PRICE = (By.XPATH, "//div[@data-component-type='s-search-result']//a[.//span[@class='a-price-whole']]")
+PRODUCT_PRICE = (By.XPATH, "//*[contains(@class, 'widgetId=search-results_1')]//span[text()='36']")
 
 
 @when('Click on the first product')
